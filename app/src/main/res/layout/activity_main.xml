@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data>
+
+    </data>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity"
+        android:padding="50dp"
+        android:gravity="center"
+        android:background="@drawable/celbackgroundof">
+        <ImageView
+            android:id="@+id/img_menu"
+            android:layout_width="match_parent"
+            android:layout_height="160dp"
+            android:background="@drawable/imgmenu"/>
+
+        <Button
+            android:id="@+id/btn_visualizarLista"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:textSize="25sp"
+            android:layout_below="@+id/img_menu"
+            android:background="@drawable/ovalo"
+            android:layout_marginTop="10dp"
+            android:layout_centerInParent="true"
+            android:text="@string/cocteles"
+            />
+<!--  otra forma de editar un boton
+          style="?android:attr/buttonBarButtonStyle"-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="italic"
+            android:textSize="18sp"
+            android:layout_marginTop="10dp"
+            android:text="@string/los_mejores_cocteles_del_mundo"
+            android:layout_below="@+id/btn_visualizarLista"
+            />
+
+
+    </RelativeLayout>
+
+</layout>

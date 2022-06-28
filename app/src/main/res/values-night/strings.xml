@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="no_hay_contenido_disponible">No hay contenido disponible</string>
+    <string name="lista_de_bebidas">LISTA DE BEBIDAS</string>
+    <string name="lista_de_cocteles">Lista de cocteles</string>
+</resources>
